@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+VjET9/R5Pe4fn7Ib5x6bF5VBd6JlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonym ous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Lalisa Bula - Full Stack Developer</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <h1 class="nav__logo" id="logo">Jon Doe</h1>
+          <div class="menu--bar">
+            <button class="menu-toggle" id="menu-toggle">
+              <svg
+                stroke="currentColor"
+                fill="none"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="h-6 w-6"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+          <ul class="nav__links">
+            <li><button class="btn--close-modal">&times;</button></li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--1">About Me</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--2">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--3">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#section--4">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="overlay">
+      <p>
+        <span>Hello there!</span><br />
+        I'm a passionate <span class="highlight">Full Stack</span><br />
+        Web <span class="highlight">Developer</span>
+        <!-- crafting creative and functional web solutions. -->
+        <br />
+        <button class="btn btn--text btn--scroll-to">Know More ↓</button>
+      </p>
+      <img src="images/lelisa.png" alt="my-photo" />
+    </div>
+    <div class="contact-links">
+      <a
+        href="https://www.linkedin.com/in/lalisa-bula-b746b5278"
+        target="_blank"
+        class="contact-link"
+      >
+        <i class="fab fa-linkedin">           <img
+          src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"
+          /></i>
+      </a>
+      <a
+        href="https://github.com/lalisabl"
+        target="_blank"
+        class="contact-link"
+      >
+        <i class="fab fa-github"><img
+          src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"
+        /></i>
+      </a>
+
+      <!-- Add more social links as needed -->
+    </div>
+    <section id="section--1" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm a Software Engineering student at Jimma University, passionate
+          about crafting functional web apps and exploring AI. As a full-stack
+          developer, I thrive in teams, valuing collaboration and team spirit.
+          My dedication to learning drives me to deeply understand concepts,
+          ensuring excellence in every project. Eager to contribute to
+          innovation and growth
+        </p>
+      </div>
+    </section>
+    <section id="section--2" class="section">
+      <div class="container">
+        <h2>My Skills</h2>
+        <ul class="skills-list">
+          <li>
+            <img src="images/html-icon.png" alt="HTML5" />
+            <span>HTML5</span>
+          </li>
+          <li>
+            <img src="images/css-icon.png" alt="CSS3" />
+            <span>CSS3</span>
+          </li>
+          <li>
+            <img src="images/js-icon.png" alt="JavaScript" />
+            <span>JavaScript</span>
+          </li>
+          <li>
+            <img src="images/react-icon.png" alt="React" />
+            <span>React</span>
+          </li>
+          <li>
+            <img src="images/php-icon.png" alt="pfp" />
+            <span>php</span>
+          </li>
+          <li>
+            <img
+              src="images/node-icon.png"
+              alt="node"
+              style="height: px; width: 64px"
+            />
+            <span>Node</span>
+          </li>
+          <li>
+            <img
+              src="images/express-icon.png"
+              alt="express"
+              style="height: px; width: 64px"
+            />
+            <span>express</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section" id="section--3">
+      <div class="container">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <div class="slider">
+          <div class="slide">
+            <h5 class="projects__header">Infant Immunization System</h5>
+            <img
+              src="images/infant-immu.png"
+              alt="infant-immunization"
+              class="projects-photo"
+            />
+          </div>
+          <div class="slide">
+            <h5 class="projects__header">Online Clearance System</h5>
+            <img
+              src="images/lia.png"
+              alt="online-clearance"
+              class="projects-photo"
+            />
+          </div>
+          <!--Add more slides as needed-->
+          <button class="slider-btn left">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5L8.25 12l7.5-7.5"
+              />
+            </svg>
+          </button>
+          <button class="slider-btn right">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </button>
+          <div class="dots"></div>
+        </div>
+      </div>
+    </section>
+    <section id="section--4" class="section">
+      <div class="container contact--container">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out:</p>
+        <ul class="con--links">
+          <li>
+            <a href="mailto:bulalalisa@gmail.com"><img src="images/email.png" alt="email-image" class="email"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/lalisa-bula-b746b5278">
+           <img
+            src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"
+            />
+           </a
+          </li>
+          <li>
+            <a href="https://github.com/lalisabl">
+              <img
+                src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="scriptP.js"></script>
+  </body>
+</html>
